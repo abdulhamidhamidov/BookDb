@@ -14,4 +14,6 @@ public class Publisher
     public DateTime EstablishedYear { get; set; }
     [Required]
     public string Website { get; set; }
+
+    public List<Book> Books { get; set; }
 }

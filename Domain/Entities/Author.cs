@@ -13,4 +13,6 @@ public class Author
     [Required] 
     public string Nationality { get; set; }
     public string Awards { get; set; }
+    public List<Book> Books { get; set; }
+
 }
